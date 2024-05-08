@@ -70,7 +70,7 @@ class InstagramBot:
         self.driver.quit()
 
 # Example usage:
-bot = InstagramBot("darth_fortis", "nP#iEe!3L7&WCDg")
+bot = InstagramBot("REPLACE USERNAME", "REPLACE PASSWORD")
 bot.login()
-bot.search_user_or_topic("coding")
+bot.search_user_or_topic("REPLACE SEARCH")
 bot.quit()
